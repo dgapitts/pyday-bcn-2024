@@ -20,7 +20,7 @@ last night I got my shit together and hopefully a decent presetation?
 Time will tell ...
 
 
-## Prerequisites
+## Prerequisites (pip and docker - no need for cassandra today)
 
 ```
    24  pip install cassandra-driver
@@ -45,10 +45,9 @@ Time will tell ...
    23  docker run --name my_postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres\n
    24  docker exec -it my_postgres psql -U postgres
 ----
-
-----
-----
-----
+docker pull mysql:latest
+docker run --name my_mysql -e MYSQL_ROOT_PASSWORD=your_password -d mysql:latest
+docker exec -it my_mysql mysql -uroot -p
 ----
 
 
