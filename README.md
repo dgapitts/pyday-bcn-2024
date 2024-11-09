@@ -54,6 +54,39 @@ Time will tell ...
 
 ```
 
+### pyday-bcn-2024 tree (`brew install tree`)
+```
+~/projects/pyday-bcn-2024 main $ tree
+.
+├── README.md
+├── csv
+│   └── Users.csv
+├── docs
+│   ├── demo01-mysql-gotcha.md
+│   └── demo02-pg-gotcha.md
+├── images
+│   └── pyDay-BCN-2024.png
+├── py
+│   ├── load-pg.py
+│   ├── test-cassandra.py
+│   ├── test-redis.py
+│   └── users-redis.py
+├── slides
+│   ├── presentation.key
+│   └── presentation.pdf
+└── sql
+    ├── accountbalance_tbl.sql
+    ├── inventory_tbl.sql
+    ├── orders_tbl.sql
+    ├── pageview_tbl.sql
+    ├── reservations_tbl.sql
+    ├── sales_tbl.sql
+    ├── users_tables.sql
+    └── visit_tables.sql
+
+7 directories, 19 files
+```
+
 
 
 
