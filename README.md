@@ -1,6 +1,6 @@
-## Welcome to my pyDay Barcelona 2024 talk on my Favorite 💚 :green_heart: Open Source :free: databases  !!
+# Welcome to my pyDay Barcelona 2024 talk on my Favorite 💚 :green_heart: Open Source :free: databases  !!
 
-<img src="images/pyDay-BCN-2024.png" style="opacity: 0.8;" />
+<img src="images/pyDay-BCN-2024.png" style="opacity: 0.8;" style="width:250px;" />
 
 !!! DoN't :free: P@nIc !!!
 
