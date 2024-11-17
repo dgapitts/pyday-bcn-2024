@@ -2,7 +2,7 @@ import pandas as pd
 import psycopg2
 
 # Load the CSV file into a DataFrame
-users_df = pd.read_csv('~/Downloads/Users.csv')
+users_df = pd.read_csv('../csv/Users.csv')
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(
